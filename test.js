@@ -4,4 +4,4 @@ const imglist = new Array(
 const url = new URL(location);
 const selectnum = Math.floor(Math.random() * imglist.length);
 
-location.href=imglist[selectnum];
+return imglist[selectnum];
